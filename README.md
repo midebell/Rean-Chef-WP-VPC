@@ -6,14 +6,7 @@ Use CM tools such as Puppet, Ansible, or Chef to automate the installation of ba
 Deliverable:
 A CloudFormation template available in Git Repository (https://github.com/midebell/Rean-Chef-WP-VPC):
 This template is named "CloudFormation_WP_VPC_Chef.JSON". When run, this will install:
-VPC
-EC2 Instance
-Security Group
-Subnet
-Route Tables
-IGW
-NAT
-EIP
+VPC, EC2 Instance, Security Group, Subnet, Route Tables, IGW, NAT, EIP
 And finally launch Chef CM (local mode) to configure WordPress through s3 recipe url.
 
 Major Bumps:
